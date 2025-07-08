@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title></title>
+</head>
+<style>
+   body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #000000 ;
+        overflow-x: hidden;
+
+   }
+   h1,h2,h3,h4,h5,h6{
+      text-align: center;
+   }
+   p{
+      text-align: justify;
+   }
+   .contain{
+      max-width: 1000px;
+      height: 1000px;
+      background-color: #fffee4 ;
+      margin: auto auto 5%;
+      padding: 30px;
+    
+      overflow-y: scroll;
+   }
+   .contain h4{
+      color: #363636;
+   }
+   #oi{
+      color: #152b3c; 
+      font-weight: bold;
+   }
+   img{
+      width: 100%;
+      height: auto;
+      border-radius: 20px;
+   }
+   footer{
+      width: 100%;
+      height: 100px;
+      background-color: #152b3c;
+      color: white;
+      padding: 20px;
+   }
+</style>
+
+<body>
+   <main class="contain">
+
+      <h1>Como  a inteligência emocional pode ser vista  como uma ferramenta essential para o <span id="oi"> sucess  em workspaces colaborativas</span>.</h1>
+      <img src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="workspace">
+      <p id="p-span"></p>
+      <ol>
+         <li><h4>Descreva  uma sistuação hipotética em que a falta de empatia pode levar a conflitos no ambiente de trabalho. Como você resolveria essa situação usando a empatia?</h4>
+         </li>
+         <p>A circunstância que pode ocorrer por falta de empatia em um ambiente de trabalho é por exemplo é julgamentos sem mesmo conhecer ou mostrar interesse pela pesssoa antes. Pois não se deve e antético julgar indenpedente se conhece aquela pessoa ou não. Você pode não ser obrigado a gostar da pessoa logo de cara, mas pode respeitar o espaço dela, assim como ela deve fazer também !</p>
+
+         <li><h4>De que forma a autoconsciência emocional pode ajudar um jovem aprendiz a melhorar seu desempenho e interações no trabalho ?</h4>
+         </li>
+         <p>A autoconsciência emocional pode melhorar a autoestima, além de deixar um propósito bem claro.</p>
+
+          <li><h4>Explique como a consciência social pode ser aplicada para fortalecer a cultura de equipe em um ambiente de trabalho diversificado ?</h4>
+         </li>
+         <p>A consciẽncia social pode ser aplicada através de respeito entre diferentes indíviduos.</p>
+      </ol>
+   </main>
+   <footer>
+      <p>Site feito por Mateus Dorvis 2025&reg;&copy;</p>
+   </footer>
+</body>
+<script>
+let date =  new Date();
+let p = document.getElementById("p-span");
+p.innerHTML = `Site atuallizado  às <span style="color:#007b00;font-weight:bold;"> 17:00 ${date.getDate()}/${date.getMonth()}/${date.getFullYear()}</span>`
+</script>
+</html>
